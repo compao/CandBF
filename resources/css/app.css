@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(C:\ODC\2.png);background-repeat:no-repeat;background-size:50%;
+}
+
+nav, .rowNav {
+    width: 100%;
+    overflow: auto;
+    background: rgb(39, 31, 31);
+}
+
+ul {
+    padding: 0;
+    /*padding: 0 0 0 250px;*/
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a, .rowNav a{
+    width: 100%;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+li a:hover {
+    background: black;
+    text-transform: uppercase;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+}
